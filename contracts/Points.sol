@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract Points is ERC20, ERC20Burnable, Ownable {
+contract Degen is ERC20, ERC20Burnable, Ownable {
     address public contractOwner;
     constructor() ERC20("Degen", "DGN") {
         _mint(msg.sender, 300 * 10 ** decimals());
