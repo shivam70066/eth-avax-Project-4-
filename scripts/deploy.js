@@ -7,7 +7,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const lock = await hre.ethers.deployContract("Points");
+  const lock = await hre.ethers.deployContract("Degen");
 
   await lock.waitForDeployment();
 
