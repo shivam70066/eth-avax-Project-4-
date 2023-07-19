@@ -8,6 +8,9 @@ In this project we have to do following things:
 > 4. Verify Your contract
 > 5. Then interact with your token.
 
+#### My Verified contract Address on snowtrace testnetwork : 0xbc2EBDf7C3046563796A62BbF5b506f0CB00850B 
+
+
 To run this code on your machine.
 
 > 1. ## Getting Started
